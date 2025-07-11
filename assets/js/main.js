@@ -30,7 +30,7 @@ function headerShadow () {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed('.typedText', {
-  strings: ['LST', 'Landcover', 'NDBI', 'NDMI', 'NDVI'],
+  strings: ['LST', 'NDBI', 'NDMI', 'NDVI', 'Penutup Lahan'],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,
