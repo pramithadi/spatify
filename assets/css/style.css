@@ -6,7 +6,7 @@
     --body-color: rgb(250, 250, 250);
     --color-white: rgb(255, 255, 255);
 
-    --text-color-second: rgb(68, 68, 68);
+    --text-color-second: #444444;
     --text-color-third: #2A3663;
 
     --first-color: #705C53;
@@ -96,7 +96,7 @@ nav {
     width: 100%;
     height: 90px;
     line-height: 90px;
-    background: #dce4c9;
+    background: #e4efe7;
     padding-inline: 9vw;
     transition: .3s;
     z-index: 100;
@@ -441,7 +441,7 @@ h3 {
     content: "";
     position: absolute;
     bottom: -100%;
-    background: var(--second-color);
+    background: #705c53;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -470,7 +470,7 @@ h3 {
     padding: 20px 30px;
     width: 100%;
     height: 315px;
-    background: var(--second-color);
+    background: #705c53;
     border-radius: 10px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
@@ -543,12 +543,12 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--second-color);
-    color: var(--color-white);
+    background: #dce4c9;
+    color: #444444;
 }
 
 .form-button>.btn:hover {
-    background: #00B5E7;
+    background: #705C53;
 }
 
 .form-button i {
